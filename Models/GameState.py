@@ -23,7 +23,7 @@ class Mappings:
 class GameState:
     def __init__(self):
         self.turn = 1
-        self.regime = 'pvp'
+        self.regime = 'bots'
         self.first_color = 'black'
         self.player_one_walls = 10
         self.player_two_walls = 10
