@@ -65,6 +65,7 @@ class Game:
             # print("The winner is P" + str(winner))
             return True
         else:
+            quit(0)
             return False
 
     def player_input(self, m):
@@ -201,3 +202,4 @@ while True:
     # answer = input('do you want to start again?(write yes)\n')
     # if answer != 'yes':
     break
+quit(0)
