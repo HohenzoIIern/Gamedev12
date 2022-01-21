@@ -10,10 +10,10 @@ def state_evaluation(state: GameState, player_one_maximizer):
 
         opponent_path_len, player_path_len = player_two_distance, player_one_distance
         if state.player_one_walls != 10 and state.player_two_walls != 10:
-            previous = state.player_one
-            state.player_one = True
+            previous = state.turn
+            state.turn = 1
             player_path_len = astar(state, False)
-            state.player_one = previous
+            state.turn = previous
 
         result += opponent_path_len
         result -= player_one_distance

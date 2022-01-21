@@ -1,0 +1,527 @@
+2022-01-21 23:57:06.3967|INFO|Logger|Executing full test...
+2022-01-21 23:57:06.4355|INFO|Logger|----------------------
+2022-01-21 23:57:06.4355|INFO|Logger|Executing run #1
+2022-01-21 23:57:08.6483|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:57:08.8946|INFO|Logger|-> move E8
+2022-01-21 23:57:22.1138|INFO|Logger|<- move E2
+2022-01-21 23:57:22.2507|INFO|Logger|-> move E7
+2022-01-21 23:57:22.9109|INFO|Logger|<- move E3
+2022-01-21 23:57:23.0133|INFO|Logger|-> move E6
+2022-01-21 23:57:23.4314|INFO|Logger|<- move E4
+2022-01-21 23:57:23.5355|INFO|Logger|-> move E5
+2022-01-21 23:57:23.8179|INFO|Logger|<- jump E6
+2022-01-21 23:57:24.0232|INFO|Logger|-> move E4
+2022-01-21 23:57:24.2286|INFO|Logger|<- move E7
+2022-01-21 23:57:24.3249|INFO|Logger|-> wall W4h
+2022-01-21 23:57:24.5501|INFO|Logger|<- move E8
+2022-01-21 23:57:24.6097|INFO|Logger|-> wall V3h
+2022-01-21 23:57:24.6969|INFO|Logger|<- move E9
+2022-01-21 23:57:24.6969|INFO|Logger|Killing client process...
+2022-01-21 23:57:24.7256|INFO|Logger|Win 
+2022-01-21 23:57:24.7256|INFO|Logger|----------------------
+2022-01-21 23:57:24.7256|INFO|Logger|Executing run #2
+2022-01-21 23:57:24.7499|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:57:24.8713|INFO|Logger|-> move E8
+2022-01-21 23:57:38.7808|INFO|Logger|<- move E2
+2022-01-21 23:57:38.8834|INFO|Logger|-> move E7
+2022-01-21 23:57:39.4058|INFO|Logger|<- move E3
+2022-01-21 23:57:39.5188|INFO|Logger|-> move E6
+2022-01-21 23:57:39.8658|INFO|Logger|<- move E4
+2022-01-21 23:57:39.9680|INFO|Logger|-> move E5
+2022-01-21 23:57:40.2292|INFO|Logger|<- jump E6
+2022-01-21 23:57:40.3186|INFO|Logger|-> move E4
+2022-01-21 23:57:40.5097|INFO|Logger|<- move E7
+2022-01-21 23:57:40.5888|INFO|Logger|-> move E3
+2022-01-21 23:57:40.6969|INFO|Logger|<- move E8
+2022-01-21 23:57:40.7946|INFO|Logger|-> move E2
+2022-01-21 23:57:40.8345|INFO|Logger|<- move E9
+2022-01-21 23:57:40.8351|INFO|Logger|Killing client process...
+2022-01-21 23:57:40.8634|INFO|Logger|Win 
+2022-01-21 23:57:40.8634|INFO|Logger|----------------------
+2022-01-21 23:57:40.8656|INFO|Logger|Executing run #3
+2022-01-21 23:57:40.8881|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:57:41.0209|INFO|Logger|-> move E8
+2022-01-21 23:57:54.7101|INFO|Logger|<- move E2
+2022-01-21 23:57:54.8102|INFO|Logger|-> wall V8v
+2022-01-21 23:57:55.5460|INFO|Logger|<- move E3
+2022-01-21 23:57:55.6514|INFO|Logger|-> move E7
+2022-01-21 23:57:56.4390|INFO|Logger|<- move E4
+2022-01-21 23:57:56.5404|INFO|Logger|-> wall W7h
+2022-01-21 23:57:57.3571|INFO|Logger|<- move E5
+2022-01-21 23:57:57.4554|INFO|Logger|-> move E6
+2022-01-21 23:57:58.0571|INFO|Logger|<- jump E7
+2022-01-21 23:57:58.1558|INFO|Logger|-> wall V6v
+2022-01-21 23:57:58.2530|INFO|Logger|<- move F7
+2022-01-21 23:57:58.3532|INFO|Logger|-> wall W6v
+2022-01-21 23:57:58.4383|INFO|Logger|<- move G7
+2022-01-21 23:57:58.5296|INFO|Logger|-> move E5
+2022-01-21 23:57:58.8116|INFO|Logger|<- move G8
+2022-01-21 23:57:58.9022|INFO|Logger|-> move E4
+2022-01-21 23:57:59.1276|INFO|Logger|<- move G9
+2022-01-21 23:57:59.1276|INFO|Logger|Killing client process...
+2022-01-21 23:57:59.1595|INFO|Logger|Win 
+2022-01-21 23:57:59.1595|INFO|Logger|----------------------
+2022-01-21 23:57:59.1595|INFO|Logger|Executing run #4
+2022-01-21 23:57:59.1837|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:57:59.3200|INFO|Logger|-> move E8
+2022-01-21 23:58:13.3004|INFO|Logger|<- move E2
+2022-01-21 23:58:13.4148|INFO|Logger|-> move E7
+2022-01-21 23:58:13.9243|INFO|Logger|<- move E3
+2022-01-21 23:58:14.0285|INFO|Logger|-> move E6
+2022-01-21 23:58:14.3741|INFO|Logger|<- move E4
+2022-01-21 23:58:14.4865|INFO|Logger|-> wall W6h
+2022-01-21 23:58:15.2697|INFO|Logger|<- move E5
+2022-01-21 23:58:15.3759|INFO|Logger|-> jump E4
+2022-01-21 23:58:15.9670|INFO|Logger|<- move E6
+2022-01-21 23:58:16.1200|INFO|Logger|-> wall W4h
+2022-01-21 23:58:16.5669|INFO|Logger|<- move F6
+2022-01-21 23:58:16.6719|INFO|Logger|-> move E3
+2022-01-21 23:58:16.7825|INFO|Logger|<- move G6
+2022-01-21 23:58:16.8536|INFO|Logger|-> move E2
+2022-01-21 23:58:16.8926|INFO|Logger|<- move G7
+2022-01-21 23:58:16.9493|INFO|Logger|-> wall W2h
+2022-01-21 23:58:16.9623|INFO|Logger|<- move F7
+2022-01-21 23:58:17.0022|INFO|Logger|-> move E1
+2022-01-21 23:58:17.0022|INFO|Logger|Killing client process...
+2022-01-21 23:58:17.0308|INFO|Logger|Loss 
+2022-01-21 23:58:17.0308|INFO|Logger|----------------------
+2022-01-21 23:58:17.0308|INFO|Logger|Executing run #5
+2022-01-21 23:58:17.0552|INFO|Logger|Chosen color for player: White
+2022-01-21 23:58:34.9896|INFO|Logger|<- move E8
+2022-01-21 23:58:35.0960|INFO|Logger|-> wall U1v
+2022-01-21 23:58:35.6142|INFO|Logger|<- move E7
+2022-01-21 23:58:35.7177|INFO|Logger|-> wall X1v
+2022-01-21 23:58:36.0356|INFO|Logger|<- move E6
+2022-01-21 23:58:36.1343|INFO|Logger|-> wall W1h
+2022-01-21 23:58:36.1343|INFO|Logger|<- move E5
+2022-01-21 23:58:36.2375|INFO|Logger|-> move D1
+2022-01-21 23:58:36.3652|INFO|Logger|<- move E4
+2022-01-21 23:58:36.4533|INFO|Logger|-> move D2
+2022-01-21 23:58:36.7663|INFO|Logger|<- move E3
+2022-01-21 23:58:36.8426|INFO|Logger|-> move D3
+2022-01-21 23:58:37.4499|INFO|Logger|<- move E2
+2022-01-21 23:58:37.5267|INFO|Logger|-> move D4
+2022-01-21 23:58:38.3251|INFO|Logger|<- move D2
+2022-01-21 23:58:38.3921|INFO|Logger|-> move D5
+2022-01-21 23:58:38.9908|INFO|Logger|<- move D1
+2022-01-21 23:58:38.9908|INFO|Logger|Killing client process...
+2022-01-21 23:58:39.0189|INFO|Logger|Win 
+2022-01-21 23:58:39.0189|INFO|Logger|----------------------
+2022-01-21 23:58:39.0189|INFO|Logger|Executing run #6
+2022-01-21 23:58:39.0416|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:58:39.1681|INFO|Logger|-> move E8
+2022-01-21 23:58:59.7600|INFO|Logger|<- move E2
+2022-01-21 23:58:59.8608|INFO|Logger|-> wall V8v
+2022-01-21 23:59:00.5481|INFO|Logger|<- move E3
+2022-01-21 23:59:00.6496|INFO|Logger|-> move E7
+2022-01-21 23:59:01.4083|INFO|Logger|<- move E4
+2022-01-21 23:59:01.5063|INFO|Logger|-> wall W7h
+2022-01-21 23:59:02.2635|INFO|Logger|<- move E5
+2022-01-21 23:59:02.3628|INFO|Logger|-> wall V6h
+2022-01-21 23:59:02.7145|INFO|Logger|<- move E6
+2022-01-21 23:59:02.8093|INFO|Logger|-> move F7
+2022-01-21 23:59:03.2784|INFO|Logger|<- move D6
+2022-01-21 23:59:03.4098|INFO|Logger|-> move F6
+2022-01-21 23:59:04.0324|INFO|Logger|<- move C6
+2022-01-21 23:59:04.1244|INFO|Logger|-> move F5
+2022-01-21 23:59:04.5977|INFO|Logger|<- move C7
+2022-01-21 23:59:04.6539|INFO|Logger|-> move F4
+2022-01-21 23:59:04.9206|INFO|Logger|<- move C8
+2022-01-21 23:59:04.9700|INFO|Logger|-> move F3
+2022-01-21 23:59:05.0754|INFO|Logger|<- move C9
+2022-01-21 23:59:05.0754|INFO|Logger|Killing client process...
+2022-01-21 23:59:05.1031|INFO|Logger|Win 
+2022-01-21 23:59:05.1031|INFO|Logger|----------------------
+2022-01-21 23:59:05.1031|INFO|Logger|Executing run #7
+2022-01-21 23:59:05.1276|INFO|Logger|Chosen color for player: White
+2022-01-21 23:59:21.9476|INFO|Logger|<- move E8
+2022-01-21 23:59:22.0554|INFO|Logger|-> move E2
+2022-01-21 23:59:22.8261|INFO|Logger|<- move E7
+2022-01-21 23:59:22.9311|INFO|Logger|-> move E3
+2022-01-21 23:59:23.7063|INFO|Logger|<- move E6
+2022-01-21 23:59:23.8145|INFO|Logger|-> move E4
+2022-01-21 23:59:24.4391|INFO|Logger|<- move E5
+2022-01-21 23:59:24.5489|INFO|Logger|-> jump E6
+2022-01-21 23:59:24.7803|INFO|Logger|<- move E4
+2022-01-21 23:59:24.8658|INFO|Logger|-> move E7
+2022-01-21 23:59:25.0388|INFO|Logger|<- move E3
+2022-01-21 23:59:25.0990|INFO|Logger|-> move E8
+2022-01-21 23:59:25.1762|INFO|Logger|<- move E2
+2022-01-21 23:59:25.2156|INFO|Logger|-> wall W5h
+2022-01-21 23:59:25.3509|INFO|Logger|<- move E1
+2022-01-21 23:59:25.3509|INFO|Logger|Killing client process...
+2022-01-21 23:59:25.3775|INFO|Logger|Win 
+2022-01-21 23:59:25.3775|INFO|Logger|----------------------
+2022-01-21 23:59:25.3775|INFO|Logger|Executing run #8
+2022-01-21 23:59:25.4050|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:59:25.5306|INFO|Logger|-> move E8
+2022-01-21 23:59:45.8313|INFO|Logger|<- move E2
+2022-01-21 23:59:45.9909|INFO|Logger|-> move E7
+2022-01-21 23:59:46.5841|INFO|Logger|<- move E3
+2022-01-21 23:59:46.6885|INFO|Logger|-> move E6
+2022-01-21 23:59:47.1133|INFO|Logger|<- move E4
+2022-01-21 23:59:47.2156|INFO|Logger|-> move E5
+2022-01-21 23:59:47.4869|INFO|Logger|<- jump E6
+2022-01-21 23:59:47.5950|INFO|Logger|-> move E4
+2022-01-21 23:59:47.7933|INFO|Logger|<- move E7
+2022-01-21 23:59:47.8674|INFO|Logger|-> move E3
+2022-01-21 23:59:47.9861|INFO|Logger|<- move E8
+2022-01-21 23:59:48.0384|INFO|Logger|-> wall W3h
+2022-01-21 23:59:48.0918|INFO|Logger|<- move E9
+2022-01-21 23:59:48.0918|INFO|Logger|Killing client process...
+2022-01-21 23:59:48.1235|INFO|Logger|Win 
+2022-01-21 23:59:48.1235|INFO|Logger|----------------------
+2022-01-21 23:59:48.1235|INFO|Logger|Executing run #9
+2022-01-21 23:59:48.1499|INFO|Logger|Chosen color for player: Black
+2022-01-21 23:59:48.2942|INFO|Logger|-> move E8
+2022-01-22 00:00:07.0983|INFO|Logger|<- move E2
+2022-01-22 00:00:07.2099|INFO|Logger|-> move E7
+2022-01-22 00:00:07.7468|INFO|Logger|<- move E3
+2022-01-22 00:00:07.8525|INFO|Logger|-> wall W7h
+2022-01-22 00:00:08.9228|INFO|Logger|<- move E4
+2022-01-22 00:00:09.0222|INFO|Logger|-> wall V6h
+2022-01-22 00:00:09.4938|INFO|Logger|<- move E5
+2022-01-22 00:00:09.6393|INFO|Logger|-> wall U6v
+2022-01-22 00:00:10.1161|INFO|Logger|<- move F5
+2022-01-22 00:00:10.2571|INFO|Logger|-> move F7
+2022-01-22 00:00:10.8192|INFO|Logger|<- move F6
+2022-01-22 00:00:10.9069|INFO|Logger|-> wall Y6h
+2022-01-22 00:00:11.3077|INFO|Logger|<- jump G7
+2022-01-22 00:00:11.3808|INFO|Logger|-> move F6
+2022-01-22 00:00:11.5846|INFO|Logger|<- move G8
+2022-01-22 00:00:11.6513|INFO|Logger|-> move F5
+2022-01-22 00:00:11.9356|INFO|Logger|<- move G9
+2022-01-22 00:00:11.9356|INFO|Logger|Killing client process...
+2022-01-22 00:00:11.9722|INFO|Logger|Win 
+2022-01-22 00:00:11.9722|INFO|Logger|----------------------
+2022-01-22 00:00:11.9752|INFO|Logger|Executing run #10
+2022-01-22 00:00:12.0025|INFO|Logger|Chosen color for player: White
+2022-01-22 00:00:31.1763|INFO|Logger|<- move E8
+2022-01-22 00:00:31.2944|INFO|Logger|-> move E2
+2022-01-22 00:00:32.1946|INFO|Logger|<- move E7
+2022-01-22 00:00:32.3009|INFO|Logger|-> move E3
+2022-01-22 00:00:33.1123|INFO|Logger|<- move E6
+2022-01-22 00:00:33.2193|INFO|Logger|-> move E4
+2022-01-22 00:00:33.8611|INFO|Logger|<- move E5
+2022-01-22 00:00:33.9873|INFO|Logger|-> wall W1h
+2022-01-22 00:00:35.6620|INFO|Logger|<- jump E3
+2022-01-22 00:00:35.7448|INFO|Logger|-> move E5
+2022-01-22 00:00:37.0049|INFO|Logger|<- move E2
+2022-01-22 00:00:37.1073|INFO|Logger|-> move E6
+2022-01-22 00:00:37.6489|INFO|Logger|<- move D2
+2022-01-22 00:00:37.6989|INFO|Logger|-> move E7
+2022-01-22 00:00:37.9542|INFO|Logger|<- move D1
+2022-01-22 00:00:37.9542|INFO|Logger|Killing client process...
+2022-01-22 00:00:37.9845|INFO|Logger|Win 
+2022-01-22 00:00:37.9845|INFO|Logger|----------------------
+2022-01-22 00:00:37.9845|INFO|Logger|Executing run #11
+2022-01-22 00:00:38.0339|INFO|Logger|Chosen color for player: White
+2022-01-22 00:01:00.2810|INFO|Logger|<- move E8
+2022-01-22 00:01:00.3938|INFO|Logger|-> move E2
+2022-01-22 00:01:01.1336|INFO|Logger|<- move E7
+2022-01-22 00:01:01.2449|INFO|Logger|-> wall V1v
+2022-01-22 00:01:02.4162|INFO|Logger|<- move E6
+2022-01-22 00:01:02.5776|INFO|Logger|-> move E3
+2022-01-22 00:01:04.7596|INFO|Logger|<- move E5
+2022-01-22 00:01:04.8697|INFO|Logger|-> move E4
+2022-01-22 00:01:06.1552|INFO|Logger|<- jump E3
+2022-01-22 00:01:06.2403|INFO|Logger|-> wall W1h
+2022-01-22 00:01:07.1248|INFO|Logger|<- move D3
+2022-01-22 00:01:07.1973|INFO|Logger|-> move E5
+2022-01-22 00:01:08.4034|INFO|Logger|<- move D2
+2022-01-22 00:01:08.4888|INFO|Logger|-> move E6
+2022-01-22 00:01:09.0744|INFO|Logger|<- move D1
+2022-01-22 00:01:09.0744|INFO|Logger|Killing client process...
+2022-01-22 00:01:09.1158|INFO|Logger|Win 
+2022-01-22 00:01:09.1158|INFO|Logger|----------------------
+2022-01-22 00:01:09.1158|INFO|Logger|Executing run #12
+2022-01-22 00:01:09.1516|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:01:09.3594|INFO|Logger|-> move E8
+2022-01-22 00:01:31.4756|INFO|Logger|<- move E2
+2022-01-22 00:01:31.6037|INFO|Logger|-> move E7
+2022-01-22 00:01:32.1478|INFO|Logger|<- move E3
+2022-01-22 00:01:32.2524|INFO|Logger|-> move E6
+2022-01-22 00:01:32.6136|INFO|Logger|<- move E4
+2022-01-22 00:01:32.7209|INFO|Logger|-> wall W6h
+2022-01-22 00:01:33.5846|INFO|Logger|<- move E5
+2022-01-22 00:01:33.6959|INFO|Logger|-> wall V5h
+2022-01-22 00:01:33.9995|INFO|Logger|<- move F5
+2022-01-22 00:01:34.1167|INFO|Logger|-> move F6
+2022-01-22 00:01:34.6395|INFO|Logger|<- jump E6
+2022-01-22 00:01:34.7391|INFO|Logger|-> move F5
+2022-01-22 00:01:34.9515|INFO|Logger|<- move D6
+2022-01-22 00:01:35.0298|INFO|Logger|-> wall X6v
+2022-01-22 00:01:35.2551|INFO|Logger|<- move D7
+2022-01-22 00:01:35.3159|INFO|Logger|-> move F4
+2022-01-22 00:01:35.5609|INFO|Logger|<- move D8
+2022-01-22 00:01:35.6172|INFO|Logger|-> wall X4v
+2022-01-22 00:01:35.7358|INFO|Logger|<- move D9
+2022-01-22 00:01:35.7358|INFO|Logger|Killing client process...
+2022-01-22 00:01:35.7687|INFO|Logger|Win 
+2022-01-22 00:01:35.7687|INFO|Logger|----------------------
+2022-01-22 00:01:35.7687|INFO|Logger|Executing run #13
+2022-01-22 00:01:35.7961|INFO|Logger|Chosen color for player: White
+2022-01-22 00:01:53.8996|INFO|Logger|<- move E8
+2022-01-22 00:01:54.0148|INFO|Logger|-> move E2
+2022-01-22 00:01:54.8108|INFO|Logger|<- move E7
+2022-01-22 00:01:54.9282|INFO|Logger|-> wall V1v
+2022-01-22 00:01:56.1876|INFO|Logger|<- move E6
+2022-01-22 00:01:56.3962|INFO|Logger|-> move E3
+2022-01-22 00:01:59.5676|INFO|Logger|<- move E5
+2022-01-22 00:01:59.6946|INFO|Logger|-> move E4
+2022-01-22 00:02:01.0130|INFO|Logger|<- jump E3
+2022-01-22 00:02:01.1032|INFO|Logger|-> wall W1h
+2022-01-22 00:02:01.9610|INFO|Logger|<- move D3
+2022-01-22 00:02:02.0330|INFO|Logger|-> move E5
+2022-01-22 00:02:02.8693|INFO|Logger|<- move D2
+2022-01-22 00:02:02.9272|INFO|Logger|-> move E6
+2022-01-22 00:02:03.3062|INFO|Logger|<- move D1
+2022-01-22 00:02:03.3062|INFO|Logger|Killing client process...
+2022-01-22 00:02:03.3343|INFO|Logger|Win 
+2022-01-22 00:02:03.3347|INFO|Logger|----------------------
+2022-01-22 00:02:03.3347|INFO|Logger|Executing run #14
+2022-01-22 00:02:03.3606|INFO|Logger|Chosen color for player: White
+2022-01-22 00:02:27.2271|INFO|Logger|<- move E8
+2022-01-22 00:02:27.3868|INFO|Logger|-> move E2
+2022-01-22 00:02:28.5180|INFO|Logger|<- move E7
+2022-01-22 00:02:28.6716|INFO|Logger|-> wall V1v
+2022-01-22 00:02:29.8809|INFO|Logger|<- move E6
+2022-01-22 00:02:29.9832|INFO|Logger|-> move E3
+2022-01-22 00:02:31.6610|INFO|Logger|<- move E5
+2022-01-22 00:02:31.7581|INFO|Logger|-> move E4
+2022-01-22 00:02:32.9843|INFO|Logger|<- jump E3
+2022-01-22 00:02:33.0735|INFO|Logger|-> move E5
+2022-01-22 00:02:34.1001|INFO|Logger|<- move E2
+2022-01-22 00:02:34.2485|INFO|Logger|-> wall W2h
+2022-01-22 00:02:34.9482|INFO|Logger|<- move E1
+2022-01-22 00:02:34.9482|INFO|Logger|Killing client process...
+2022-01-22 00:02:34.9871|INFO|Logger|Win 
+2022-01-22 00:02:34.9871|INFO|Logger|----------------------
+2022-01-22 00:02:34.9871|INFO|Logger|Executing run #15
+2022-01-22 00:02:35.0317|INFO|Logger|Chosen color for player: White
+2022-01-22 00:02:56.0917|INFO|Logger|<- move E8
+2022-01-22 00:02:56.1971|INFO|Logger|-> move E2
+2022-01-22 00:02:57.0457|INFO|Logger|<- move E7
+2022-01-22 00:02:57.2024|INFO|Logger|-> move E3
+2022-01-22 00:02:58.3745|INFO|Logger|<- move E6
+2022-01-22 00:02:58.5318|INFO|Logger|-> move E4
+2022-01-22 00:02:59.2951|INFO|Logger|<- move E5
+2022-01-22 00:02:59.3958|INFO|Logger|-> jump E6
+2022-01-22 00:02:59.6095|INFO|Logger|<- move E4
+2022-01-22 00:02:59.6998|INFO|Logger|-> wall W3h
+2022-01-22 00:03:00.7129|INFO|Logger|<- move D4
+2022-01-22 00:03:00.7859|INFO|Logger|-> move E7
+2022-01-22 00:03:01.3522|INFO|Logger|<- move D3
+2022-01-22 00:03:01.3975|INFO|Logger|-> move E8
+2022-01-22 00:03:01.6539|INFO|Logger|<- move D2
+2022-01-22 00:03:01.6792|INFO|Logger|-> move E9
+2022-01-22 00:03:01.6792|INFO|Logger|Killing client process...
+2022-01-22 00:03:01.7093|INFO|Logger|Loss 
+2022-01-22 00:03:01.8097|INFO|Logger|----------------------
+2022-01-22 00:03:01.8097|INFO|Logger|Executing run #16
+2022-01-22 00:03:01.8329|INFO|Logger|Chosen color for player: White
+2022-01-22 00:03:23.7006|INFO|Logger|<- move E8
+2022-01-22 00:03:23.8280|INFO|Logger|-> move E2
+2022-01-22 00:03:24.6903|INFO|Logger|<- move E7
+2022-01-22 00:03:24.7924|INFO|Logger|-> move E3
+2022-01-22 00:03:25.5645|INFO|Logger|<- move E6
+2022-01-22 00:03:25.6768|INFO|Logger|-> move E4
+2022-01-22 00:03:26.5375|INFO|Logger|<- move E5
+2022-01-22 00:03:26.6942|INFO|Logger|-> jump E6
+2022-01-22 00:03:27.0179|INFO|Logger|<- move E4
+2022-01-22 00:03:27.1033|INFO|Logger|-> wall W3h
+2022-01-22 00:03:28.1541|INFO|Logger|<- move D4
+2022-01-22 00:03:28.2304|INFO|Logger|-> move E7
+2022-01-22 00:03:28.8399|INFO|Logger|<- move D3
+2022-01-22 00:03:28.8931|INFO|Logger|-> wall W4h
+2022-01-22 00:03:31.3702|INFO|Logger|<- move D2
+2022-01-22 00:03:31.4194|INFO|Logger|-> move E8
+2022-01-22 00:03:31.6056|INFO|Logger|<- move D1
+2022-01-22 00:03:31.6056|INFO|Logger|Killing client process...
+2022-01-22 00:03:31.6479|INFO|Logger|Win 
+2022-01-22 00:03:31.6479|INFO|Logger|----------------------
+2022-01-22 00:03:31.6479|INFO|Logger|Executing run #17
+2022-01-22 00:03:31.6762|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:03:31.7966|INFO|Logger|-> wall U8v
+2022-01-22 00:03:53.3725|INFO|Logger|<- move E2
+2022-01-22 00:03:53.4831|INFO|Logger|-> move E8
+2022-01-22 00:03:54.3338|INFO|Logger|<- move E3
+2022-01-22 00:03:54.4405|INFO|Logger|-> move E7
+2022-01-22 00:03:55.5782|INFO|Logger|<- move E4
+2022-01-22 00:03:55.7281|INFO|Logger|-> wall W7h
+2022-01-22 00:03:56.8991|INFO|Logger|<- move E5
+2022-01-22 00:03:57.0477|INFO|Logger|-> move E6
+2022-01-22 00:03:57.7033|INFO|Logger|<- jump E7
+2022-01-22 00:03:57.7867|INFO|Logger|-> wall V7v
+2022-01-22 00:03:57.9218|INFO|Logger|<- move F7
+2022-01-22 00:03:58.0115|INFO|Logger|-> wall V5h
+2022-01-22 00:03:58.1948|INFO|Logger|<- move G7
+2022-01-22 00:03:58.2839|INFO|Logger|-> wall U5v
+2022-01-22 00:03:58.4824|INFO|Logger|<- move G8
+2022-01-22 00:03:58.5648|INFO|Logger|-> move F6
+2022-01-22 00:03:58.8575|INFO|Logger|<- move G9
+2022-01-22 00:03:58.8575|INFO|Logger|Killing client process...
+2022-01-22 00:03:58.8916|INFO|Logger|Win 
+2022-01-22 00:03:58.8916|INFO|Logger|----------------------
+2022-01-22 00:03:58.8916|INFO|Logger|Executing run #18
+2022-01-22 00:03:58.9243|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:03:59.0716|INFO|Logger|-> move E8
+2022-01-22 00:04:20.1942|INFO|Logger|<- move E2
+2022-01-22 00:04:20.3002|INFO|Logger|-> move E7
+2022-01-22 00:04:20.8269|INFO|Logger|<- move E3
+2022-01-22 00:04:20.9394|INFO|Logger|-> wall W7h
+2022-01-22 00:04:22.0656|INFO|Logger|<- move E4
+2022-01-22 00:04:22.1796|INFO|Logger|-> wall V6h
+2022-01-22 00:04:22.7078|INFO|Logger|<- move E5
+2022-01-22 00:04:22.8075|INFO|Logger|-> move F7
+2022-01-22 00:04:23.4971|INFO|Logger|<- move E6
+2022-01-22 00:04:23.5922|INFO|Logger|-> move F6
+2022-01-22 00:04:23.9602|INFO|Logger|<- move D6
+2022-01-22 00:04:24.0490|INFO|Logger|-> move F5
+2022-01-22 00:04:24.5158|INFO|Logger|<- move C6
+2022-01-22 00:04:24.5907|INFO|Logger|-> move F4
+2022-01-22 00:04:24.9809|INFO|Logger|<- move C7
+2022-01-22 00:04:25.0395|INFO|Logger|-> move F3
+2022-01-22 00:04:25.1689|INFO|Logger|<- move C8
+2022-01-22 00:04:25.3101|INFO|Logger|-> move F2
+2022-01-22 00:04:25.3492|INFO|Logger|<- move C9
+2022-01-22 00:04:25.3492|INFO|Logger|Killing client process...
+2022-01-22 00:04:25.3903|INFO|Logger|Win 
+2022-01-22 00:04:25.3903|INFO|Logger|----------------------
+2022-01-22 00:04:25.3903|INFO|Logger|Executing run #19
+2022-01-22 00:04:25.4294|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:04:25.5821|INFO|Logger|-> wall U8v
+2022-01-22 00:04:46.5082|INFO|Logger|<- move E2
+2022-01-22 00:04:46.6132|INFO|Logger|-> move E8
+2022-01-22 00:04:47.4955|INFO|Logger|<- move E3
+2022-01-22 00:04:47.5962|INFO|Logger|-> move E7
+2022-01-22 00:04:48.4519|INFO|Logger|<- move E4
+2022-01-22 00:04:48.5571|INFO|Logger|-> move E6
+2022-01-22 00:04:49.5546|INFO|Logger|<- move E5
+2022-01-22 00:04:49.7056|INFO|Logger|-> jump E4
+2022-01-22 00:04:50.0756|INFO|Logger|<- move E6
+2022-01-22 00:04:50.1618|INFO|Logger|-> move E3
+2022-01-22 00:04:50.2945|INFO|Logger|<- move E7
+2022-01-22 00:04:50.3616|INFO|Logger|-> move E2
+2022-01-22 00:04:50.3994|INFO|Logger|<- move E8
+2022-01-22 00:04:50.4529|INFO|Logger|-> move E1
+2022-01-22 00:04:50.4529|INFO|Logger|Killing client process...
+2022-01-22 00:04:50.4947|INFO|Logger|Loss 
+2022-01-22 00:04:50.4947|INFO|Logger|----------------------
+2022-01-22 00:04:50.4947|INFO|Logger|Executing run #20
+2022-01-22 00:04:50.5329|INFO|Logger|Chosen color for player: White
+2022-01-22 00:05:09.5597|INFO|Logger|<- move E8
+2022-01-22 00:05:09.6739|INFO|Logger|-> move E2
+2022-01-22 00:05:10.4263|INFO|Logger|<- move E7
+2022-01-22 00:05:10.5340|INFO|Logger|-> move E3
+2022-01-22 00:05:11.3974|INFO|Logger|<- move E6
+2022-01-22 00:05:11.5111|INFO|Logger|-> move E4
+2022-01-22 00:05:12.3154|INFO|Logger|<- move E5
+2022-01-22 00:05:12.4271|INFO|Logger|-> jump E6
+2022-01-22 00:05:12.6625|INFO|Logger|<- move E4
+2022-01-22 00:05:12.7524|INFO|Logger|-> move E7
+2022-01-22 00:05:12.9335|INFO|Logger|<- move E3
+2022-01-22 00:05:13.0030|INFO|Logger|-> wall W4h
+2022-01-22 00:05:13.3828|INFO|Logger|<- move E2
+2022-01-22 00:05:13.4283|INFO|Logger|-> wall V4v
+2022-01-22 00:05:13.6750|INFO|Logger|<- move E1
+2022-01-22 00:05:13.6750|INFO|Logger|Killing client process...
+2022-01-22 00:05:13.7099|INFO|Logger|Win 
+2022-01-22 00:05:13.7099|INFO|Logger|----------------------
+2022-01-22 00:05:13.7099|INFO|Logger|Executing run #21
+2022-01-22 00:05:13.7445|INFO|Logger|Chosen color for player: White
+2022-01-22 00:05:31.7286|INFO|Logger|<- move E8
+2022-01-22 00:05:31.8389|INFO|Logger|-> move E2
+2022-01-22 00:05:32.6192|INFO|Logger|<- move E7
+2022-01-22 00:05:32.7306|INFO|Logger|-> move E3
+2022-01-22 00:05:33.5446|INFO|Logger|<- move E6
+2022-01-22 00:05:33.6513|INFO|Logger|-> move E4
+2022-01-22 00:05:34.2880|INFO|Logger|<- move E5
+2022-01-22 00:05:34.3944|INFO|Logger|-> jump E6
+2022-01-22 00:05:34.6365|INFO|Logger|<- move E4
+2022-01-22 00:05:34.7293|INFO|Logger|-> wall W3h
+2022-01-22 00:05:35.8653|INFO|Logger|<- move D4
+2022-01-22 00:05:35.9409|INFO|Logger|-> move E7
+2022-01-22 00:05:36.5509|INFO|Logger|<- move D3
+2022-01-22 00:05:36.6041|INFO|Logger|-> move E8
+2022-01-22 00:05:36.8560|INFO|Logger|<- move D2
+2022-01-22 00:05:36.8904|INFO|Logger|-> wall W5h
+2022-01-22 00:05:37.0201|INFO|Logger|<- move D1
+2022-01-22 00:05:37.0201|INFO|Logger|Killing client process...
+2022-01-22 00:05:37.0579|INFO|Logger|Win 
+2022-01-22 00:05:37.0579|INFO|Logger|----------------------
+2022-01-22 00:05:37.0579|INFO|Logger|Executing run #22
+2022-01-22 00:05:37.0941|INFO|Logger|Chosen color for player: White
+2022-01-22 00:05:56.5094|INFO|Logger|<- move E8
+2022-01-22 00:05:56.6222|INFO|Logger|-> move E2
+2022-01-22 00:05:57.3853|INFO|Logger|<- move E7
+2022-01-22 00:05:57.4920|INFO|Logger|-> move E3
+2022-01-22 00:05:58.3064|INFO|Logger|<- move E6
+2022-01-22 00:05:58.4143|INFO|Logger|-> move E4
+2022-01-22 00:05:59.0470|INFO|Logger|<- move E5
+2022-01-22 00:05:59.1515|INFO|Logger|-> jump E6
+2022-01-22 00:05:59.3777|INFO|Logger|<- move E4
+2022-01-22 00:05:59.4676|INFO|Logger|-> move E7
+2022-01-22 00:05:59.6435|INFO|Logger|<- move E3
+2022-01-22 00:05:59.7099|INFO|Logger|-> wall W4h
+2022-01-22 00:06:00.0786|INFO|Logger|<- move E2
+2022-01-22 00:06:00.1241|INFO|Logger|-> wall V4v
+2022-01-22 00:06:00.3479|INFO|Logger|<- move E1
+2022-01-22 00:06:00.3479|INFO|Logger|Killing client process...
+2022-01-22 00:06:00.3909|INFO|Logger|Win 
+2022-01-22 00:06:00.3909|INFO|Logger|----------------------
+2022-01-22 00:06:00.3996|INFO|Logger|Executing run #23
+2022-01-22 00:06:00.5344|INFO|Logger|Chosen color for player: White
+2022-01-22 00:06:14.0301|INFO|Logger|Killing client process...
+2022-01-22 00:06:14.8268|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:14.8268|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:14.8268|INFO|Logger|----------------------
+2022-01-22 00:06:14.8349|INFO|Logger|Executing run #24
+2022-01-22 00:06:14.8597|INFO|Logger|Chosen color for player: White
+2022-01-22 00:06:15.8709|INFO|Logger|Killing client process...
+2022-01-22 00:06:15.8709|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:15.8812|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:15.8812|INFO|Logger|----------------------
+2022-01-22 00:06:15.8812|INFO|Logger|Executing run #25
+2022-01-22 00:06:15.9240|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:06:16.0443|INFO|Logger|-> wall U8v
+2022-01-22 00:06:17.0458|INFO|Logger|Killing client process...
+2022-01-22 00:06:17.0458|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:17.0458|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:17.0543|INFO|Logger|----------------------
+2022-01-22 00:06:17.0543|INFO|Logger|Executing run #26
+2022-01-22 00:06:17.0949|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:06:17.2650|INFO|Logger|-> move E8
+2022-01-22 00:06:18.2666|INFO|Logger|Killing client process...
+2022-01-22 00:06:18.2666|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:18.2666|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:18.2772|INFO|Logger|----------------------
+2022-01-22 00:06:18.2772|INFO|Logger|Executing run #27
+2022-01-22 00:06:18.3172|INFO|Logger|Chosen color for player: White
+2022-01-22 00:06:19.3187|INFO|Logger|Killing client process...
+2022-01-22 00:06:19.3187|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:19.3187|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:19.3187|INFO|Logger|----------------------
+2022-01-22 00:06:19.3187|INFO|Logger|Executing run #28
+2022-01-22 00:06:19.3617|INFO|Logger|Chosen color for player: White
+2022-01-22 00:06:20.3730|INFO|Logger|Killing client process...
+2022-01-22 00:06:20.3730|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:20.3730|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:20.3730|INFO|Logger|----------------------
+2022-01-22 00:06:20.3730|INFO|Logger|Executing run #29
+2022-01-22 00:06:20.4057|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:06:20.5169|INFO|Logger|-> move E8
+2022-01-22 00:06:21.5179|INFO|Logger|Killing client process...
+2022-01-22 00:06:21.5179|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:21.5179|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:21.5253|INFO|Logger|----------------------
+2022-01-22 00:06:21.5253|INFO|Logger|Executing run #30
+2022-01-22 00:06:21.5495|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:06:21.6639|INFO|Logger|-> move E8
+2022-01-22 00:06:22.6649|INFO|Logger|Killing client process...
+2022-01-22 00:06:22.6649|ERROR|Logger|Could not fetch next command
+2022-01-22 00:06:22.6649|ERROR|Logger|TechnicalLoss Could not fetch next command
+2022-01-22 00:06:22.6649|INFO|Logger|----------------------
+2022-01-22 00:06:22.6649|INFO|Logger|Executing run #31
+2022-01-22 00:06:22.7093|INFO|Logger|Chosen color for player: Black
+2022-01-22 00:06:22.8231|INFO|Logger|-> move E8

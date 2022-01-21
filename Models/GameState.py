@@ -355,7 +355,9 @@ class GameState:
             move_x = -2
             move_y = -2
             wall_x = -1
-            wall_y = -1
+            wall_y = 0
+            wall_x1 = -2
+            wall_y1 = -1
             occupied_x = -2
             occupied_wall = -3
         else:
@@ -363,14 +365,15 @@ class GameState:
             move_x = 2
             move_y = 2
             wall_x = 1
-            wall_y = 1
+            wall_y = 0
+            wall_x1 = 2
+            wall_y1 = 1
             occupied_x = 2
             occupied_wall = 3
-
         if 0 <= i + move_x <= 16 and 0 <= j + move_y <= 16 and 0 <= i + wall_x <= 16 and 0 <= j + wall_y <= 16 and \
-                0 <= i + occupied_x <= 16 and 0 <= i + occupied_wall <= 16:
+                0 <= i + occupied_x <= 16 and 0 <= i + occupied_wall <= 16 and 0 <= i + wall_x1 <= 16 and 0 <= j + wall_y1 <= 16:
             if self.is_wall_free(i + wall_x, j + wall_y) and not self.is_tile_free(i + occupied_x, j) and \
-                    not self.is_wall_free(i + occupied_wall, j):
+                    not self.is_wall_free(i + occupied_wall, j) and self.is_wall_free(i + wall_x1, j + wall_y1):
                 position = (i + move_x, j + move_y)
                 if include_state:
                     copy_state = self.copy()
@@ -390,7 +393,9 @@ class GameState:
             move_x = -2
             move_y = 2
             wall_x = -1
-            wall_y = 1
+            wall_y = 0
+            wall_x1 = -2
+            wall_y1 = 1
             occupied_x = -2
             occupied_wall = -3
         else:
@@ -398,14 +403,16 @@ class GameState:
             move_x = 2
             move_y = -2
             wall_x = 1
-            wall_y = -1
+            wall_y = 0
+            wall_x1 = 2
+            wall_y1 = -1
             occupied_x = 2
             occupied_wall = 3
 
         if 0 <= i + move_x <= 16 and 0 <= j + move_y <= 16 and 0 <= i + wall_x <= 16 and 0 <= j + wall_y <= 16 and \
-                0 <= i + occupied_x <= 16 and 0 <= i + occupied_wall <= 16:
+                0 <= i + occupied_x <= 16 and 0 <= i + occupied_wall <= 16 and 0 <= i + wall_x1 <= 16 and 0 <= j + wall_y1 <= 16:
             if self.is_wall_free(i + wall_x, j + wall_y) and not self.is_tile_free(i + occupied_x, j) and \
-                    not self.is_wall_free(i + occupied_wall, j):
+                    not self.is_wall_free(i + occupied_wall, j) and self.is_wall_free(i + wall_x1, j + wall_y1):
                 position = (i + move_x, j + move_y)
                 if include_state:
                     copy_state = self.copy()

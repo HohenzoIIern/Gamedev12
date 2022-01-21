@@ -65,7 +65,6 @@ class Game:
             # print("The winner is P" + str(winner))
             return True
         else:
-            quit(0)
             return False
 
     def player_input(self, m):
@@ -124,9 +123,9 @@ class Game:
         d = {}
         for child in self.state.get_all_child_states(True):
             if self.state.turn == 1:
-                value = minimax(child[0], 3, -300, 300, True, True)
+                value = minimax(child[0], 3, -800, 800, True, True)
             else:
-                value = minimax(child[0], 3, -300, 300, True, False)
+                value = minimax(child[0], 3, -800, 800, True, False)
             d[value] = child
         if len(d.keys()) == 0:
             return False
@@ -202,4 +201,3 @@ while True:
     # answer = input('do you want to start again?(write yes)\n')
     # if answer != 'yes':
     break
-quit(0)
