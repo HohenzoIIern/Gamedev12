@@ -191,6 +191,7 @@ class GameState:
             self.board[x * 17 + y] = Status.PLAYER_2
 
         self.board[old_x * 17 + old_y] = Status.FREE_TILE
+        return [old_x, old_y]
 
     def end_state(self):
         return self.player_one_pos[0] == 0 or self.player_two_pos[0] == 16

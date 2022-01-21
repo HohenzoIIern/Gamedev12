@@ -7,10 +7,11 @@ from Models.AI import minimax
 class Game:
     def __init__(self):
         self.my_bot = True
-        self.first = True
-        self.second = True
+        self.second = False
         self.state = GameState()
-        print("white")
+        res = input().split(' ').pop()
+        if res == 'black':
+            self.second = True
         # self.state.turn = 2
         # ans = input('You started a new game, pick your color\n black or white\n')
         # if ans == 'white':
@@ -28,9 +29,9 @@ class Game:
         while True:
             # self.state.print_walls_number()
             # print("\n")
-            self.state.print_board()
-
+            # self.state.print_board()
             if self.check_end_state():
+                # print('asda')
                 break
 
             # if self.state.regime == 'bots':
@@ -44,11 +45,16 @@ class Game:
             #        self.ai_input()
 
             if self.state.turn == 1:
-                self.my_bot = self.ai_input()
+                if self.second:
+                    self.bot_testing(self.my_bot)
+                else:
+                    self.my_bot = self.ai_input()
                 self.state.turn = 2
             else:
                 if not self.my_bot:
                     break
+                elif self.second:
+                    self.my_bot = self.ai_input()
                 else:
                     self.bot_testing(self.my_bot)
                 self.state.turn = 1
@@ -56,7 +62,7 @@ class Game:
     def check_end_state(self):
         if self.state.end_state():
             winner = self.state.turn
-            print("The winner is P" + str(winner))
+            # print("The winner is P" + str(winner))
             return True
         else:
             return False
@@ -66,12 +72,12 @@ class Game:
             bl = 1
             value = m
             value.strip(' ')
-            if value.upper() == 'X':
+            if value.upper() == 'exit':
                 exit(0)
             elif value.upper().startswith('M'):
-                value = value.replace('M', '', 1)
-                value = value.replace('m', '', 1)
-                [x_string, y_string] = value.split(',')
+                buff = list(value.upper())
+                x_string = buff[1]
+                y_string = buff[3]
                 if x_string.upper() not in Mappings.MAP.keys() or y_string.upper() not in Mappings.MAP.keys():
                     # print("Illegal move!")
                     bl = 2
@@ -86,9 +92,10 @@ class Game:
                         self.state.move((x, y))
                         break
             elif value.upper().startswith("W"):
-                value = value.replace('W', '', 1)
-                value = value.replace('w', '', 1)
-                [x_string, y_string, orientation] = value.split(',')
+                buff = list(value.upper())
+                x_string = buff[1]
+                y_string = buff[3]
+                orientation = buff[5]
                 if x_string.upper() not in Mappings.MAP.keys() or y_string.upper() not in Mappings.MAP.keys():
                     # print('Illegal wall placement!')
                     bl = 1
@@ -113,12 +120,12 @@ class Game:
                 bl = 1
 
     def ai_input(self):
-        if self.second:
-            self.second = False
-            return True
         d = {}
         for child in self.state.get_all_child_states(True):
-            value = minimax(child[0], 3, -math.inf, math.inf, True, False)
+            if self.state.turn == 1:
+                value = minimax(child[0], 3, -300, 300, True, True)
+            else:
+                value = minimax(child[0], 3, -300, 300, True, False)
             d[value] = child
         if len(d.keys()) == 0:
             return False
@@ -126,16 +133,20 @@ class Game:
         winner = d[k]
         action = winner[1]
         if action is not None:
-            print(action)
             if len(action) == 2:
-                self.state.move(action)
+                old = self.state.move(action)
                 (x_string, y_string) = action
+                if (abs(x_string - old[0]) == 2 or abs(y_string - old[1]) == 2) and abs(x_string - old[0]) != abs(y_string - old[1]):
+                    mod = 'move '
+                else:
+                    mod = 'jump '
                 x = ["1", "1", "2", "2", "3", "3", "4", "4", "5", "5", "6", "6", "7", "7", "8", "8", "9"]
                 x_string = x[x_string]
                 y = ["A", "S", "B", "T", "C", "U", "D", "V", "E", "W", "F", "X", "G", "Y", "H", "Z", "I"]
                 y_string = y[y_string]
                 # print("AI has moved")
-                return 'move ' + y_string + x_string
+                print(mod + y_string + x_string)
+                return mod + y_string + x_string
             else:
                 self.state.place_wall(action)
                 orient = ''
@@ -149,42 +160,36 @@ class Game:
                 y = ["A", "S", "B", "T", "C", "U", "D", "V", "E", "W", "F", "X", "G", "Y", "H", "Z", "I"]
                 y_string = y[y_string]
                 # print("AI has placed a wall")
+                print('wall ' + y_string + x_string + orient)
                 return 'wall ' + y_string + x_string + orient
         else:
             # print("AI has no moves left")
             return False
 
     def bot_testing(self, result):
-        if not self.first:
-            print(result)
-            move = self.parser(input())
-            self.player_input(move)
-        else:
-            self.first = False
+        res = input()
+        move = self.parser(res)
+        self.player_input(move)
         return True
 
     def parser(self, param):
         buff = param.split(" ")
-        if buff[1] == "move" or buff[1] == "jump":
-            x_string = list(buff[2])[0]
-            y_string = list(buff[2])[1]
+        if buff[0] == "move" or buff[0] == "jump":
+            x_string = list(buff[1])[0]
+            y_string = list(buff[1])[1]
             x = {'A': 'A', 'B': 'C', 'C': 'E', 'D': 'G', 'E': 'I', 'F': 'K', 'G': 'M', 'H': 'O', 'I': 'Q'}
             x_string = x.get(str(x_string))
             y = {'1': 'A', '2': 'C', '3': 'E', '4': 'G', '5': 'I', '6': 'K', '7': 'M', '8': 'O', '9': 'Q'}
-            print(str(y_string))
             y_string = y.get(str(y_string))
-            print(y_string)
             return 'm' + str(y_string) + ',' + str(x_string)
-        elif buff[1] == "wall":
-            x_string = list(buff[2])[0]
-            y_string = list(buff[2])[1]
-            orient = list(buff[2])[2]
-            print(y_string)
+        elif buff[0] == "wall":
+            x_string = list(buff[1])[0]
+            y_string = list(buff[1])[1]
+            orient = list(buff[1])[2]
             x = {'S': 'b', 'T': 'd', 'U': 'f', 'V': 'h', 'W': 'j', 'X': 'l', 'Y': 'n', 'Z': 'p'}
             x_string = x.get(str(x_string))
             y = {'1': 'b', '2': 'd', '3': 'f', '4': 'h', '5': 'j', '6': 'l', '7': 'n', '8': 'p'}
             y_string = y.get(str(y_string))
-            print('w' + str(y_string) + ',' + str(x_string) + ',' + str(orient))
             return 'w' + str(y_string) + ',' + str(x_string) + ',' + str(orient)
         else:
             return False
@@ -195,4 +200,4 @@ while True:
     game.play()
     # answer = input('do you want to start again?(write yes)\n')
     # if answer != 'yes':
-    #    break
+    break
